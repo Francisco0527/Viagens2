@@ -74,6 +74,12 @@ h1 {
   position: relative;
   overflow-y: auto;
   max-height: calc(95vh - 200px);
+  display: none; /* Oculto por padrão */
+  opacity: 0;
+}
+.tabcontent.active {
+  display: block; /* Torna visível quando ativado */
+  opacity: 1;
 }
 
 .tabcontent h2 {
